@@ -9,10 +9,10 @@ import sys
 import oauth2 as oauth
 
 
-consumer_key="YIB3EqaobBQJ1qPoDK9hGQyz3"
-consumer_secret="IbU4gzAiQLYnLAM9ALHGC5lIAhPNDqtk0ilMdZIw8xO8u33eNp"
-access_key="1448464110-ZXIx1hoQTEM4pAX3awESEYR9dewGoxKQikGTSYy"
-access_secret="g473pYP1txNcGkKJTpYTKhFYzn6oTArS5wh5fTd2XstQI"
+consumer_key=""
+consumer_secret=""
+access_key=""
+access_secret=""
 
 def get_rt_ts(client,tid):
 	endpoint2="https://api.twitter.com/1.1/statuses/retweets/%s.json"%(tid)
